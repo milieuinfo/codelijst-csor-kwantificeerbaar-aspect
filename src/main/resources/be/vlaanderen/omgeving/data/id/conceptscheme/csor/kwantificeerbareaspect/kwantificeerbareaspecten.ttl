@@ -1,0 +1,1609 @@
+PREFIX csor:             <https://data.omgeving.vlaanderen.be/ns/csor#>
+PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraints#>
+PREFIX dcterms:          <http://purl.org/dc/terms/>
+PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
+PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX qudt:             <http://qudt.org/schema/qudt/>
+PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:               <http://www.w3.org/ns/shacl#>
+PREFIX skos:             <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_118>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_EQ_PFOA_PER_MASSA_DS";
+        skos:prefLabel              "massaconcentratie equivalent PFOA per massa per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_190>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_EQ_PFOA_PER_MASSA_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_99>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_N_PER_OPP_PER_TIJD";
+        skos:prefLabel              "massaStikstof per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_234>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_N_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_18>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "BEZINKBARE_STOFFEN";
+        skos:prefLabel              "Bezinkbare stoffen"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_70>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_15>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "BEZINKBARE_STOFFEN" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_26>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "IE";
+        skos:prefLabel              "Inwonersequivalent"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_78>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_21>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "IE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH";
+        skos:prefLabel              "massaverhouding"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_28> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_26> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_29> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_31> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_27>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_34>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:broadMatch             <http://qudt.org/vocab/quantitykind/MassDensity>;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_O";
+        skos:prefLabel              "massaconcentratieZuurstof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_102> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_242>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_O";
+        csor:variabele              <https://data.omgeving.vlaanderen.be/id/concept/csor/variabele/V_309> .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_50>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_SN";
+        skos:prefLabel              "massaconcentratieTin"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_135> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_136>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_SN" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_105>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "PPM_METHAAN_EQ";
+        skos:prefLabel              "parts per million- methaan equivalenten"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_240>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "PPM_METHAAN_EQ" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_PER_PRODUCTIE";
+        skos:prefLabel              "Massa per geproduceerde massa"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_31> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_29> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_26> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_27> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_28>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_PER_PRODUCTIE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_78>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_F";
+        skos:prefLabel              "vrachtFluor"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_180> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_183> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_184>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_F" .
+
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>
+        rdf:type            skos:ConceptScheme;
+        owl:deprecated      false;
+        skos:definition     "Een kwantificeerbaar aspect duidt aan wat de interpretatie is van de numerieke waarde van een meting binnen een natuurkundige dimensie. Zo kan een parameter voor een stikstofhoudende variabele (bvb NO3) twee aspecten kennen: bv. \"gram stikstofhoudende variabele per kilogram droge stof\" en \"gram stikstof per kilogram droge stof\". Hoewel beide eenzelfde natuurkundige dimensie uitdrukken (massa/massa), zijn de geassocieerde waardes onderling onvergelijkbaar. Via het kwantificeerbare aspecten geven we aan hoe men de waarde moet interpreteren."@nl;
+        skos:hasTopConcept  <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_102> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_84> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_1> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_78> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_108> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_62> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_56> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_22> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_26> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_40> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_20> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_81> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_111> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_105> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_38> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_87> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_103> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_85> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_2> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_79> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_65> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_109> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_69> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_63> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_57> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_90> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_23> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_27> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_41> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_82> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_112> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_106> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_39> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_94> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_88> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_5> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_60> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_72> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_66> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_32> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_9> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_64> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_50> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_30> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_91> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_24> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_44> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_10> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_115> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_48> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_28> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_14> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_113> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_107> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_95> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_89> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_6> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_119> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_4> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_73> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_67> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_33> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_110> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_51> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_92> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_31> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_11> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_116> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_98> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_15> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_70> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_114> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_100> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_96> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_7> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_76> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_74> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_68> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_54> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_34> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_58> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_52> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_93> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_46> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_18> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_12> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_117> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_36> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_16> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_99> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_71> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_101> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_97> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_8> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_77> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_75> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_61> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_55> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_35> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_21> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_59> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_25> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_53> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_19> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_80> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_13> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_118> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_104> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_37> , <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_17>;
+        skos:prefLabel      "Kwantificeerbaar aspect"@nl .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_13>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "TEMP";
+        skos:prefLabel              "temperatuur"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_62> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_230>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_11>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "TEMP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_21>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "HARDHEID";
+        skos:prefLabel              "Hardheid"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_75> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_76>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_19>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "HARDHEID" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_94>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "HOEK";
+        skos:prefLabel              "hoek"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_202>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_42>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "HOEK" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_113>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_CL_DS";
+        skos:prefLabel              "massaverhoudingChloor per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_127>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_CL_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_57>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_P";
+        skos:prefLabel              "vrachtFosfor"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_152> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_151>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_P" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_65>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_WHO-TEQ_PER_MASSA";
+        skos:prefLabel              "massa WHO-TEQ per massa"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_WHO-TEQ_PER_MASSA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_100>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_P_PER_OPP_PER_TIJD";
+        skos:prefLabel              "massaFosfor per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_237>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_P_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_81>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_EQ_ESTRADIOL_PER_VOLUME";
+        skos:prefLabel              "massaconcentratie equivalent estradiol per volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_188>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_26>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_EQ_ESTRADIOL_PER_VOLUME" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_73>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_PER_NM3";
+        skos:prefLabel              "Massaconcentratie (Nm³)"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_172>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_PER_NM3" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_28>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "ENERGIE";
+        skos:prefLabel              "Energie"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_186> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_90> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_89>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_28>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "ENERGIE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_5>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT";
+        skos:prefLabel              "vracht"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_41> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_218> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_39> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_37> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_38> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_36> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_40>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_44>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:broadMatch             <http://qudt.org/vocab/quantitykind/MassDensity>;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_NH4";
+        skos:prefLabel              "massaconcentratieAmmonium"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_126>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_NH4";
+        csor:variabele              <https://data.omgeving.vlaanderen.be/id/concept/csor/variabele/V_321> .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_52>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_CaCO3";
+        skos:prefLabel              "massaconcentratieCaCO3"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_139>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_CaCO3" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_60>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC_DEXAMETHASONE";
+        skos:prefLabel              "equivalent concentratie dexamethasone"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_155>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC_DEXAMETHASONE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_36>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_N_PER_TIJD";
+        skos:prefLabel              "vrachtStikstof per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_106> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_107> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_105> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_110> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_108> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_109>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_N_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_107>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "ZEQ_PER_OPP_PER_TIJD";
+        skos:prefLabel              "zuurequivalenten per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_235>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_37>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "ZEQ_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_115>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_SN_DS";
+        skos:prefLabel              "massaverhoudingTin per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_133> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_134>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_SN_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_88>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "DRUK";
+        skos:prefLabel              "druk"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_193>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_33>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "DRUK" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_96>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_PER_OPP";
+        skos:prefLabel              "massa per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_199>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_39>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_15>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "GEEN";
+        skos:prefLabel              "Geen"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_74>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_18>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "GEEN" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_23>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EFFECT_EENHEID";
+        skos:prefLabel              "Effecteenheid"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_84>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_25>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EFFECT_EENHEID" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_31>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "TIJD";
+        skos:prefLabel              "Tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_93> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_94>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_31>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_4>;
+        csor:symbool                "TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_59>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC_ESTRADIOL";
+        skos:prefLabel              "equivalent concentratie estradiol"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_154>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC_ESTRADIOL" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_67>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "PERCENTAGE_MORT";
+        skos:prefLabel              "PercentageMortaliteit"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_163>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "PERCENTAGE_MORT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_102>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_P_PER_OPP";
+        skos:prefLabel              "massaFosfor per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_236>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_39>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_P_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_110>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_DS";
+        skos:prefLabel              "massaverhouding per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_97> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_96>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_75>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "DEBIET_NM3";
+        skos:prefLabel              "Debiet (Nm³)"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_175>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_8>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "DEBIET_NM3" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_91>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQ_PER_OPP_PER_TIJD";
+        skos:prefLabel              "equivalenten per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_197>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_37>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQ_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_10>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "DEBIET_VRACHT";
+        skos:prefLabel              "debiet (vracht)"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_33> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_32> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_35> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_34>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_4>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "DEBIET_VRACHT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_7>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "PERCENTAGE";
+        skos:prefLabel              "Percentage"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_43> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_206> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_44> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_207>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "PERCENTAGE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_38>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_O";
+        skos:prefLabel              "vrachtZuurstof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_114> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_115>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_O" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_46>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_CL";
+        skos:prefLabel              "massaconcentratieChloor"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_128> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_129>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_CL" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_54>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_P_PER_TIJD";
+        skos:prefLabel              "vrachtFosfor per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_171> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_141> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_142> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_145> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_144> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_143>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_P_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_62>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC_BENZO-A-PYRENE";
+        skos:prefLabel              "equivalent concentratie benzo(a)pyrene"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_157>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC_BENZO-A-PYRENE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_70>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_C13EO";
+        skos:prefLabel              "massaconcentratie tridecylalcoholether(13)ethoxylaat"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_166>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_C13EO" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_109>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_NG";
+        skos:prefLabel              "massaverhouding per nat gewicht"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_99> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_98>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_NG" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_117>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_WHO-TEQ_PER_MASSA_NG";
+        skos:prefLabel              "massa WHO-TEQ per massa per nat gewicht"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_160> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_161>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_WHO-TEQ_PER_MASSA_NG" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_98>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "ZEQ_PER_OPP";
+        skos:prefLabel              "zuurequivalenten per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_231>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_36>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "ZEQ_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_17>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "TURBIDITEIT";
+        skos:prefLabel              "Turbiditeit"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_65> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_66>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_13>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "TURBIDITEIT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_25>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "AANTAL";
+        skos:prefLabel              "Aantal"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_83>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_24>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_3>;
+        csor:symbool                "AANTAL" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_2>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_PER_TIJD";
+        skos:prefLabel              "vracht per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_10> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_17> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_15> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_24> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_11> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_18> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_20> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_25> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_12> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_19> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_21> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_13> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_22> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_16> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_14> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_23>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_33>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAPERC_BIOTA";
+        skos:prefLabel              "massapercentageInBiota"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_31> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_29> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_28> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_26> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_27>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAPERC_BIOTA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_41>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_C_PER_TIJD";
+        skos:prefLabel              "vrachtKoolstof per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_122> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_121>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_C_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_69>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_C9PEO";
+        skos:prefLabel              "massaconcentratie nonylfenol(12)ethoxylaat"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_165>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_C9PEO" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_104>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "DEELTJES_PER_VOLUME";
+        skos:prefLabel              "deeltjes per volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_54> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_57> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_56> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_55> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_221> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_58>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_9>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "DEELTJES_PER_VOLUME" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_112>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_N_DS";
+        skos:prefLabel              "massaverhoudingStikstof per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_125>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_N_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_77>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_F";
+        skos:prefLabel              "massaconcentratieFluor"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_178> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_179>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_F" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_85>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_EQ_TCDD_PER_MASSA";
+        skos:prefLabel              "massaconcentratie equivalent 2,3,7,8-TCDD per massa"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_EQ_TCDD_PER_MASSA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_12>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "LENGTE";
+        skos:prefLabel              "lengte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_59> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_61> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_60>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_10>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "LENGTE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_20>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC";
+        skos:prefLabel              "Equivalent concentratie"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_69> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_67> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_68>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_93>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VERMOGEN_PER_OPP";
+        skos:prefLabel              "vermogen per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_201>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_41>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VERMOGEN_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_9>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MOLCONC";
+        skos:prefLabel              "molaire concentratie"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_229> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_42>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_6>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MOLCONC" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_48>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_P";
+        skos:prefLabel              "massaconcentratieFosfor"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_131> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_132>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_P" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_56>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_CL";
+        skos:prefLabel              "vrachtChloor"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_169> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_150> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_149>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_CL" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_64>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_TEQ_PER_MASSA";
+        skos:prefLabel              "massa TEQ per massa"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_TEQ_PER_MASSA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_72>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_SN_PER_TIJD";
+        skos:prefLabel              "vrachtTin per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_168>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_SN_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_80>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EKC";
+        skos:prefLabel              "Ecologische kwaliteitscoëfficiënt"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_74>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_18>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EKC" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_119>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_EQ_TCDD_PER_MASSA_DS";
+        skos:prefLabel              "massaconcentratie equivalent 2,3,7,8-TCDD per massa per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_191>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_EQ_TCDD_PER_MASSA_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_19>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "RADIO-ACT_PER_VOL";
+        skos:prefLabel              "Radio-activiteit per volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_64> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_63>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_12>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "RADIO-ACT_PER_VOL" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_27>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VERMOGEN";
+        skos:prefLabel              "Vermogen"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_92>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_30>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VERMOGEN" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_35>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_N";
+        skos:prefLabel              "massaconcentratieStikstof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_104> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_103>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_N" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_4>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "DEBIET";
+        skos:prefLabel              "debiet"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_45> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_52> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_50> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_53> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_51> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_46> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_49> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_47> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_48>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_8>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "DEBIET" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_51>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_S";
+        skos:prefLabel              "massaconcentratieZwavel"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_137> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_138>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_S" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_106>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_TEQ_PER_OPP_PER_TIJD";
+        skos:prefLabel              "massa TEQ per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_232>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_TEQ_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_114>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_P_DS";
+        skos:prefLabel              "massaverhoudingFosfor per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_130>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_P_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_79>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_F_PER_TIJD";
+        skos:prefLabel              "vrachtFluor per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_182> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_185> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_181>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_F_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_87>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQ_PER_OPP";
+        skos:prefLabel              "equivalenten per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_196>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_36>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQ_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_14>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "GELEIDBAARHEID";
+        skos:prefLabel              "Geleidbaarheid"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_72> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_73>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_17>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "GELEIDBAARHEID" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_22>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "NEERSLAG";
+        skos:prefLabel              "Neerslag"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_214> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_77>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_20>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "NEERSLAG" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_30>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "OPPERVLAKTE";
+        skos:prefLabel              "Oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_95>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_32>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "OPPERVLAKTE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_95>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "AU_PER_VOL";
+        skos:prefLabel              "arbitraire eenheid per volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_203>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_43>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "AU_PER_VOL" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_58>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_SN";
+        skos:prefLabel              "vrachtTin"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_153>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_SN" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_66>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              true;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "PERCENTAGE_EFFECT";
+        skos:prefLabel              "PercentageEffect"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_162>;
+        csor:geldigTot              "2026-03-17"^^xsd:date;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "PERCENTAGE_EFFECT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_101>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_N_PER_OPP";
+        skos:prefLabel              "massaStikstof per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_233>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_39>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_N_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_74>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_TEQ_PER_NM3";
+        skos:prefLabel              "Massaconcentratie TEQ (Nm³)"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_173>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_26>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_TEQ_PER_NM3" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_82>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_EQ_PFOA_PER_VOLUME";
+        skos:prefLabel              "massaconcentratie equivalent PFOA per volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_189>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_26>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_EQ_PFOA_PER_VOLUME" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_90>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MOL_PER_OPP_PER_TIJD";
+        skos:prefLabel              "mol per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_195> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_215>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_35>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MOL_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "ENERGIE_PER_TIJD";
+        skos:prefLabel              "Energie per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_192> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_91>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_29>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "ENERGIE_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_37>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_N";
+        skos:prefLabel              "vrachtStikstof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_113> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_111> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_112>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_N" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_6>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VOLUME";
+        skos:prefLabel              "Volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_34> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_33> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_32> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_35>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_4>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VOLUME" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_53>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_SiO2";
+        skos:prefLabel              "massaconcentratieSiO2"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_140>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_SiO2" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_61>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC_ACTINOMYCIN";
+        skos:prefLabel              "equivalent concentratie actinomycin D"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_156>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC_ACTINOMYCIN" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_108>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_S_PER_OPP_PER_TIJD";
+        skos:prefLabel              "massaZwavel per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_241>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_S_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_116>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_TEQ_PER_MASSA_DS";
+        skos:prefLabel              "massa TEQ per massa per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_159>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_TEQ_PER_MASSA_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_89>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MOL_PER_OPP";
+        skos:prefLabel              "mol per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_194>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_34>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MOL_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_97>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_PER_OPP_PER_TIJD";
+        skos:prefLabel              "massa per oppervlakte per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_216> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_198> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_217> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_223> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_212>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_PER_OPP_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_16>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "REDOXPOT";
+        skos:prefLabel              "Redox potentiaal"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_71>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_16>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "REDOXPOT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_24>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MOLVRACHT";
+        skos:prefLabel              "Molvracht"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_79>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_22>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MOLVRACHT" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_1>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:definition             "Massa per volume (toelichting)"@nl;
+        skos:exactMatch             <http://qudt.org/vocab/quantitykind/MassDensity>;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC";
+        skos:prefLabel              "massaconcentratie"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_204> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_4> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_219> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_7> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_5> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_1> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_8> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_6> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_205> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_2> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_9> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_3>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_32>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:broadMatch             <http://qudt.org/vocab/quantitykind/MassDensity>;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_C";
+        skos:prefLabel              "massaconcentratieKoolstof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_101> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_100>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_C";
+        csor:variabele              <https://data.omgeving.vlaanderen.be/id/concept/csor/variabele/V_47> .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_40>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_C";
+        skos:prefLabel              "vrachtKoolstof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_119> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_120>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_C" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_68>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_TEQ_PER_TIJD";
+        skos:prefLabel              "vrachtTEQ per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_176> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_164> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_174>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_27>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_TEQ_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_103>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA_PER_FILTER";
+        skos:prefLabel              "massa per filter"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_238> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_239>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA_PER_FILTER" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_111>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSAVERH_C_DS";
+        skos:prefLabel              "massaverhoudingKoolstof per droge stof"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_123> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_124>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSAVERH_C_DS" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_76>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VERMOGEN_THERMISCH";
+        skos:prefLabel              "Thermisch vermogen"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_177>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_30>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VERMOGEN_THERMISCH" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_84>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSACONC_EQ_PFOA_PER_MASSA";
+        skos:prefLabel              "massaconcentratie equivalent PFOA per massa"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSACONC_EQ_PFOA_PER_MASSA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_11>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "TELLING";
+        skos:prefLabel              "telling per volume"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_56> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_221> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_55> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_58> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_54> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_57>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_9>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "TELLING" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_92>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VOL_PER_OPP";
+        skos:prefLabel              "volume per oppervlakte"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_200>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_40>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VOL_PER_OPP" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_8>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "MASSA";
+        skos:prefLabel              "massa"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_38> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_36> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_40> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_41> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_218> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_39> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_37>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "MASSA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_39>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_O_PER_TIJD";
+        skos:prefLabel              "vrachtZuurstof per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_116> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_117> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_170> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_118>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_O_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_55>
+        rdf:type                    csor:KwantificeerbaarAspect , skos:Concept;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "VRACHT_CL_PER_TIJD";
+        skos:prefLabel              "vrachtChloor per tijd"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_146> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_148> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_147>;
+        csor:kwantificeerbaarAspectType
+                "VRACHT";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "VRACHT_CL_PER_TIJD" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_63>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC_NICARDIPINE";
+        skos:prefLabel              "equivalent concentratie nicardipine"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_158>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC_NICARDIPINE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_71>
+        rdf:type                    skos:Concept , csor:KwantificeerbaarAspect;
+        owl:deprecated              false;
+        skos:inScheme               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        skos:notation               "EQCONC_TRIBUTYLTIN_AC";
+        skos:prefLabel              "equivalent concentratie Tributyltin acetate"@nl;
+        skos:topConceptOf           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect>;
+        csor:eenheden               <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_167>;
+        csor:kwantificeerbaarAspectType
+                "INDIVIDUELE_OBSERVATIE";
+        csor:natuurkundigeDimensie  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>;
+        csor:resultaatType          <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>;
+        csor:symbool                "EQCONC_TRIBUTYLTIN_AC" .
