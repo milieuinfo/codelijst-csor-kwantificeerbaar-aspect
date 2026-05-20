@@ -8,6 +8,7 @@ Een kwantificeerbaar aspect duidt aan wat de interpretatie is van de numerieke w
 
 - Concept scheme URI: `https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect`
 - Namespace: `https://data.omgeving.vlaanderen.be/ns/csor#`
+- Named graph (Virtuoso): `https://data.omgeving.vlaanderen.be/id/graph/codelijst-csor-kwantificeerbaar-aspect`
 - Aantal concepten: 119
 
 ## Bestandsstructuur
