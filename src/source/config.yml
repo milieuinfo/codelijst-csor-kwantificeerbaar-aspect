@@ -7,7 +7,7 @@ skos:
     concept : https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/csor/kwantificeerbaaraspect/
   path: ./main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/csor/
-  name: kwantificeerbareaspect
+  name: kwantificeerbaaraspect
   nt: .nt
 
 source:
