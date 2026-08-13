@@ -4194,6 +4194,10 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3"
     }
      ]
@@ -4210,6 +4214,10 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3"
     }
      ]
@@ -4223,6 +4231,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
@@ -4271,6 +4283,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
@@ -4354,6 +4370,10 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3"
     }
      ]
@@ -4367,6 +4387,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
@@ -11171,11 +11195,19 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_147"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_4"
     }
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
@@ -11999,6 +12031,178 @@
      ]
   }
    ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_147" : { 
+    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+      "type" : "literal" ,
+      "value" : "KWA_147"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#kwantificeerbaarAspectType" : [ { 
+      "type" : "literal" ,
+      "value" : "INDIVIDUELE_OBSERVATIE"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftResultaattype" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "massa equivalent PFOA per nat gewicht" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
+      "type" : "literal" ,
+      "value" : "false" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
+      "type" : "literal" ,
+      "value" : "MASSA_EQ_PFOA_PER_MASSA_NG"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#KwantificeerbaarAspect"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#toepasbareEenheid" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374"
+    }
+     ]
+  }
+   ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146" : { 
+    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+      "type" : "literal" ,
+      "value" : "KWA_146"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#kwantificeerbaarAspectType" : [ { 
+      "type" : "literal" ,
+      "value" : "INDIVIDUELE_OBSERVATIE"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Fout aangemaakt" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftResultaattype" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1"
+    }
+     ] ,
+    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
+      "type" : "literal" ,
+      "value" : "false" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
+      "type" : "literal" ,
+      "value" : "FOUT"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#KwantificeerbaarAspect"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#toepasbareEenheid" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_29"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_27"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_28"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_261"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_293"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_287"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_254"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_31"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_253"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_26"
+    }
+     ]
+  }
+   ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_350" : { 
     "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
       "type" : "uri" ,
@@ -12551,6 +12755,14 @@
      ]
   }
    ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375" : { 
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_147"
+    }
+     ]
+  }
+   ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_254" : { 
     "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
       "type" : "uri" ,
@@ -12559,6 +12771,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
@@ -12615,6 +12831,14 @@
      ]
   }
    ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374" : { 
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_147"
+    }
+     ]
+  }
+   ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_253" : { 
     "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
       "type" : "uri" ,
@@ -12623,6 +12847,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
@@ -12731,6 +12959,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
@@ -13054,6 +13286,10 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_3"
     }
      ]
@@ -13211,6 +13447,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_86"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_146"
     }
     , { 
       "type" : "uri" ,
