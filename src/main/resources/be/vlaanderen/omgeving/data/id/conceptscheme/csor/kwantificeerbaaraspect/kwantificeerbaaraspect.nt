@@ -71,6 +71,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "ENERGIE_PER_TIJD" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <https://data.omgeving.vlaanderen.be/ns/csor#toepasbareEenheid> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_91> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <https://data.omgeving.vlaanderen.be/ns/csor#toepasbareEenheid> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#KwantificeerbaarAspect> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwantificeerbaaraspect> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> <https://data.omgeving.vlaanderen.be/ns/csor#kwantificeerbaarAspectType> "INDIVIDUELE_OBSERVATIE" .
@@ -311,6 +312,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#KwantificeerbaarAspect> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_131> <http://www.w3.org/2004/02/skos/core#prefLabel> "massaconcentratie koolstof (Nm³)"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_83> <https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect> <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_25> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376> <https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect> <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_153> <https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect> <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_58> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_248> <https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect> <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_141> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_28> <https://data.omgeving.vlaanderen.be/ns/csor#toepasbareEenheid> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_89> .

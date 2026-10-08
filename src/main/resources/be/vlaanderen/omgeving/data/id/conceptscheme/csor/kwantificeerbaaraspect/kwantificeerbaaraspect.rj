@@ -460,6 +460,10 @@
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_192"
     }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376"
+    }
      ]
   }
    ,
@@ -12787,6 +12791,14 @@
     "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_115"
+    }
+     ]
+  }
+   ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376" : { 
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftKwantificeerbaarAspect" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29"
     }
      ]
   }

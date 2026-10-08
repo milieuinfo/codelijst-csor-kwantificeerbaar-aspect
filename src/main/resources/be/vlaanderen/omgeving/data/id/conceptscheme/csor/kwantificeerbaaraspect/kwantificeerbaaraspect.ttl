@@ -1,6 +1,7 @@
 PREFIX csor:             <https://data.omgeving.vlaanderen.be/ns/csor#>
 PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraints#>
 PREFIX dc:               <http://purl.org/dc/elements/1.1/>
+PREFIX dcat:             <https://www.w3.org/ns/dcat#>
 PREFIX dct:              <http://purl.org/dc/terms/>
 PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
 PREFIX owl:              <http://www.w3.org/2002/07/owl#>
@@ -135,7 +136,7 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
         csor:kwantificeerbaarAspectType
                 "INDIVIDUELE_OBSERVATIE";
         csor:symbool             "ENERGIE_PER_TIJD";
-        csor:toepasbareEenheid   <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_91> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_192> .
+        csor:toepasbareEenheid   <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_91> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_192> .
 
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_231>
         csor:heeftKwantificeerbaarAspect
@@ -480,6 +481,10 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_83>
         csor:heeftKwantificeerbaarAspect
                 <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_25> .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376>
+        csor:heeftKwantificeerbaarAspect
+                <https://data.omgeving.vlaanderen.be/id/concept/csor/kwantificeerbaaraspect/KWA_29> .
 
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_153>
         csor:heeftKwantificeerbaarAspect
